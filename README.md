@@ -14,7 +14,6 @@ Vagrant AD Lab builder for log-based detection research and development
 - run: cd LogDetectionLab
 - run: vagrant up
 - walk away for like 30 minutes
-- Change static IP in kali VM for interface eth1 to be 192.168.200.13
 - to destroy the lab, run: vagrant destroy -f
 
 # services and creds
@@ -23,8 +22,8 @@ Vagrant AD Lab builder for log-based detection research and development
 - create-users.ps1 has more user info
 
 # bugs
-- IP address in kali does not change through vagrant
-- invoke-atomicredteam doesn't get installed on workstation1, AV issue
+- check commit history to see what i fixed
+- invoke-atomicredteam does get installed on workstation1 but Defender will remove some files.
 
 # resources i used to help me build this (there could be more that i missed. i had too many tabs open)
 https://github.com/clong/DetectionLab
