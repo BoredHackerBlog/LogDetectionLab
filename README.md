@@ -25,6 +25,8 @@ Vagrant AD Lab builder for log-based detection research and development
 - check commit history to see what i fixed
 - invoke-atomicredteam does get installed on workstation1 but Defender will remove some files.
 
+# vmware project https://github.com/BoredHackerBlog/LogDetectionLabVMWare if you'd like to use that instead of virtualbox
+
 # resources i used to help me build this (there could be more that i missed. i had too many tabs open)
 https://github.com/clong/DetectionLab
 
