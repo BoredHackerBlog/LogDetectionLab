@@ -12,6 +12,7 @@ Vagrant AD Lab builder for log-based detection research and development
 # usage
 - run: git clone https://github.com/BoredHackerBlog/LogDetectionLab
 - run: cd LogDetectionLab
+- edit winlogbeat.yml
 - run: vagrant up
 - walk away for like 30 minutes
 - to destroy the lab, run: vagrant destroy -f
